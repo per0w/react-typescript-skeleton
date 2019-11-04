@@ -1,0 +1,30 @@
+{
+    "presets": [
+        "@babel/react",
+        "@babel/typescript",
+        [
+            "@babel/env",
+            {
+                "modules": false,
+                "targets": {
+                    "browsers": "last 2 versions",
+                    "node": "current"
+                }
+            }
+        ]
+    ],
+    "plugins": [
+        "react-hot-loader/babel",
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-syntax-dynamic-import",
+        [
+            "module-resolver",
+            {
+                "root": ["./src"],
+                "alias": {
+                    "src": "./src"
+                }
+            }
+        ]
+    ]
+}

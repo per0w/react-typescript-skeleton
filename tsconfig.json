@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "ESNEXT",
+      "module": "commonjs",
+      "jsx": "react",
+      "baseUrl": ".",
+      "moduleResolution": "node",
+      "noEmit": true,
+      "isolatedModules": true,
+      "allowSyntheticDefaultImports": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+    },
+    "include": ["src"],
+    "exclude": [
+      "node_modules",
+      ".vscode"
+    ]
+  }
